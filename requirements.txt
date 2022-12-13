@@ -18,6 +18,3 @@ telegraph
 numpy
 Flask
 gunicorn
-zip
-extract
-unzip
