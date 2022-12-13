@@ -387,15 +387,14 @@ class TarFolder:
                             await self.lsg.edit_text(
                                 "**Downloading:** {}\n**[{}{}]** **{}%**\n{} **of** {}iB\n**Speed:** {}iB"
                                 "/sec\n**ETA:** {}".format(
-                                    os.path.basename(self.name),
-                                    int(percent),
+                                    os.path.basename(self.name),                                    
+                                ) int(percent),
                                     current,
                                     total,
                                     speed,
                                     eta,
                                     finished_str,
-                                    unfinished_str,                                    
-                                )
+                                    unfinished_str,
                             )
 
         else:
