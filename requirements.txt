@@ -19,6 +19,5 @@ numpy
 Flask
 gunicorn
 zip
-7zip
 extract
 unzip
