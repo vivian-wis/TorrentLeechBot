@@ -393,6 +393,8 @@ class TarFolder:
                                     total,
                                     speed,
                                     eta,
+                                    finished_str,
+                                    unfinished_str,                                    
                                 )
                             )
 
