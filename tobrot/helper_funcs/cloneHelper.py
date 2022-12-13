@@ -388,13 +388,13 @@ class TarFolder:
                                 "**Downloading:** {}\n**[{}{}]** **{}%**\n{} **of** {}iB\n**Speed:** {}iB"
                                 "/sec\n**ETA:** {}".format(
                                     os.path.basename(self.name),                                    
-                                ) int(percent),
+                                    int(percent),
                                     current,
                                     total,
                                     speed,
                                     eta,
                                     finished_str,
-                                    unfinished_str,
+                                    unfinished_str, ) 
                             )
 
         else:
