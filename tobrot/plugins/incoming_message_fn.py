@@ -43,7 +43,7 @@ async def incoming_purge_message_f(client, message):
 async def incoming_message_f(client, message):
     """/leech command or /gleech command"""
     user_command = message.command[0]
-    g.id = message.from_user
+    g_id = message.from_user
     credit = await message.reply_text(
         f"🧲 Leeching for you <a href='tg://user?id={g_id}'>🤕</a>", parse_mode="html"
     )
